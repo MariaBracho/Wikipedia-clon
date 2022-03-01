@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 14px;
+}
+
+header {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 114px;
+    margin-bottom: 30px
+}
+
+.title {
+    width: 240px;
+    margin: 0 auto;
+    text-align: center;
+    height: 50px;
+}
+
+.title_icon {
+    margin-bottom: 6px;
+    width: 160px;
+    height: auto;
+    object-fit: contain;
+}
+
+.title_text {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+
+main {
+    width: 100%;
+}
+
+.SectionFirts {
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.logo_icon {
+    width: 195px;
+    position: absolute;
+    right: 35%;
+    top: 23%;
+}
+
+.main_wikipedia {
+    position: relative;
+    width: 600px;
+    height: 296px;
+}
+
+.mainText {
+    width: 600px;
+    height: 296px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, auto);
+    place-items: center;
+    grid-column-gap: 151px;
+}
+
+.iten {
+    text-align: center;
+    height: 50px;
+    width: 139px;
+    cursor: pointer;
+}
+
+.iten:hover {
+    background-color: #eaecf0;
+}
+
+.iten .iten_title {
+    font-size: 16px;
+    color: #36c;
+    font-weight: bold;
+}
+
+.iten .iten_text {
+    font-size: 13px;
+    color: #54595D;
+}
+
+.Iten1,
+.Iten9 {
+    margin-left: 50%;
+}
+
+.Iten2,
+.Iten10 {
+    margin-right: 50%;
+}
+
+.Iten5 {
+    margin-right: 10%;
+}
+
+.Iten6 {
+    margin-left: 10%;
+}
+
+.search {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.container_input {
+    width: 85%;
+    height: 45px;
+    display: flex;
+    border: 1px solid #a2a9b1;
+    align-items: center
+}
+
+.search_container {
+    width: 460px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.search_input {
+    margin-left: 10px;
+    width: 400px;
+    outline: none;
+    border: none;
+}
+
+.language {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 30px;
+    display: flex;
+    font-size: 14px;
+    color: #54595D;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60px;
+    cursor: pointer;
+}
+
+.search_button {
+    display: flex;
+    justify-content: center;
+    width: 12%;
+    border: 1px solid #36c;
+    height: 45px;
+    background-color: #36c;
+    cursor: pointer;
+    align-items: center;
+}
+
+.button_magnifyingClass {
+    height: 30px;
+    width: 30px;
+    background-image: url(https://viajarconmusica.com/wp-content/themes/sitiosGrupoPeriscopio/images/lupa-blanca-png-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.lenguage_icon {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/32/32195.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    height: 10px;
+    width: 10px;
+}
+
+.lenguageButton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.LenguageButton_container {
+    display: flex;
+    width: 47%;
+    align-items: center;
+    justify-content: center;
+}
+
+.LenguageButton_line {
+    height: 1px;
+    background-color: #c8ccd1;
+    width: 17%;
+}
+
+.LenguageButton_button {
+    color: #36c;
+    font-weight: bold;
+    height: 40px;
+    width: 256px;
+    display: flex;
+    align-items: center;
+    margin: 0 14px;
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.LenguageButton_button:hover {
+    background-color: transparent;
+}
+
+.lenguageButton_icon {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/484/484531.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 14px;
+    width: 14px;
+}
+
+hr {
+    opacity: 0.4;
+}
+
+.SectionSecond img {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+}
+
+.SectionSecond {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.SectionSecond_container {
+    margin: 70px 0;
+    gap: 24px;
+    display: flex;
+}
+
+.aboutWikipedia {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 70%;
+}
+
+.information {
+    font-size: 13px;
+    width: 30%;
+}
+
+.information img {
+    margin-right: 12px;
+}
+
+.title_aboutWIkipedia {
+    font-size: 14px;
+    color: #36c;
+}
+
+.text_aboutWikipedia {
+    font-size: 13px;
+    color: #54595D;
+}
+
+.information_about p,
+.text_download {
+    color: #54595D;
+}
+
+.information_about a {
+    color: #36c;
+    text-decoration: none;
+    cursor: pointer;
+    grid-column: 2/3;
+}
+
+.title_donwload {
+    color: #54595D;
+    font-weight: bold;
+}
+
+.information_about {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr;
+    margin-bottom: 40px;
+}
+
+.information_donwload img {
+    box-shadow: 3px 2px 3px #b9b9b9;
+    border-radius: 5px;
+}
+
+.information_donwload {
+    width: 342px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color: #f8f9fa;
+    padding: 12px;
+}
+
+.text_download,
+.informaction_donwload_icon {
+    grid-column: 2/3;
+}
+
+.informaction_donwload_icon {
+    display: flex;
+}
+
+.GooglePlay {
+    background-image: url(https://www.playstorear.com/wp-content/uploads/2016/06/en_badge_web_generic.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60px;
+    width: 124px;
+    cursor: pointer;
+}
+
+.AppStore {
+    background-image: url(http://assets.stickpng.com/images/5847e95fcef1014c0b5e4822.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60px;
+    width: 124px;
+    cursor: pointer;
+}
+
+.aboutWikipedia_Iten:hover {
+    background-color: #eaecf0;
+}
+
+.aboutWikipedia_Iten {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Container {
+    display: flex;
+    width: 160px;
+}
+
+.Container img {
+    margin-right: 10px;
+    align-self: center;
+}
+
+footer {
+    width: 100%;
+    height: 52px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #54595D;
+}
+
+.container_footer,
+.container_footer ul {
+    display: flex;
+}
+
+.container_footer ul li a,
+.container_footer p a {
+    color: #36c;
+    text-decoration: none;
+    margin-right: 22px;
+}
